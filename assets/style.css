@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+header img {
+    min-width: 180px;
+    min-height: 105px;
+    margin: 2%;
+}
+
+
+.mobile2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.material-symbols-outlined {
+    margin: 35px 15px 0 0;
+}
+
+ul, li {
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Telão superior */
+
+form {
+    text-align: center;
+}
+
+.oq_encontrar {
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    margin: 50px auto;
+    background-color: gray;
+    border: none;
+    border-radius: 17px;
+    color: white;
+}
+.oq_encontrar ::placeholder {
+    color: white;
+}
+
+.section0 {
+    background-image: url("/img/imagem6.png");
+    height: 350px;
+    padding: 67px;
+
+}
+
+.buscar1 {
+   display: none;
+}
+
+.h2Padrao {
+    text-align: center;
+    font-weight: 900;
+    font-size: 35px;
+    margin-top: 25px ;
+}
+
+.containerCards {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    width: 250px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.h5Cards {
+    color: white;
+    background-color: #473A19;
+    height: 35px;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.imgCards {
+    width: 250px;
+    z-index: 1;
+    height: 152px;
+}
+
+.fundo-cards {
+    background-color: rgba(133, 121, 121, 0.397);
+    border-radius: 0 0 10px 10px;
+    padding: 5px;
+}
+
+.botaoPadrao {
+    background-color: #B88E23;
+    color: white;
+    border: none;
+    padding: 21px;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 0 0 100px;
+}
+
+.botaoPadrao1 {
+    background-color: #B88E23;
+    color: white;
+    border: none;
+    padding: 21px;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.cadastrar {
+    background-image: url(/img/imagem9.png);
+}
+
+.fundoBranco {
+    background-color: white;
+}
+
+.escritocadastrar {
+    text-align: center;
+    margin-top: 25px;
+    padding: 8px;
+}
+
+.inputcadastrar {
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: rgb(214, 214, 214);
+}
+
+.inputcadastrar ::placeholder {
+    color: black;
+    text-align: center;
+}
+
+.formCadastrar {
+    display: flex;
+    flex-direction: column
+}
+
+footer {
+    text-align: center;
+    padding: 2%;
+}
+
+.h2Footer {
+    margin-top: 15px;
+}
+
+footer img {
+    width: 250px;
+}
